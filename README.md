@@ -8,7 +8,9 @@ thiago.traue@uni9.pro.br
 
 ## Preparação do ambiente de desenvolvimento
 
-Para preparar o ambiente de desenvolvimento, você pode seguir o documento [NESTE LINK]()
+Por conta da ementa da disciplina de programação visual com Winforms e C#, A IDE que utilizamos é exclusiva para Windows, ou seja, não existem versões para Mac e/ou Linux.
+
+Para preparar o ambiente de desenvolvimento, você pode seguir o documento [NESTE LINK](https://docs.google.com/document/d/1peEF-FDxh14hyjkIOXfChf0-JEOJA7nW4abMthWr70I/edit?usp=sharing)
 
 
 ## Atividades
