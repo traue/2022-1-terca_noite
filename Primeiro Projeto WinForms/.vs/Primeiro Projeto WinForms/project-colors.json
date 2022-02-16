@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "ec2cec4b-5212-43ba-aeac-dd7537d9ca6d": {
+      "ProjectGuid": "ec2cec4b-5212-43ba-aeac-dd7537d9ca6d",
+      "DisplayName": "Primeiro Projeto WinForms",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

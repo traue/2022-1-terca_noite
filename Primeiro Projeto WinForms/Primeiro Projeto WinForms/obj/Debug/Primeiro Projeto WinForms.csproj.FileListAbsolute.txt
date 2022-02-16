@@ -1,0 +1,11 @@
+Y:\repositorios\3_noite\Primeiro Projeto WinForms\Primeiro Projeto WinForms\bin\Debug\Primeiro Projeto WinForms.exe.config
+Y:\repositorios\3_noite\Primeiro Projeto WinForms\Primeiro Projeto WinForms\bin\Debug\Primeiro Projeto WinForms.exe
+Y:\repositorios\3_noite\Primeiro Projeto WinForms\Primeiro Projeto WinForms\bin\Debug\Primeiro Projeto WinForms.pdb
+Y:\repositorios\3_noite\Primeiro Projeto WinForms\Primeiro Projeto WinForms\obj\Debug\Primeiro Projeto WinForms.csproj.AssemblyReference.cache
+Y:\repositorios\3_noite\Primeiro Projeto WinForms\Primeiro Projeto WinForms\obj\Debug\Primeiro Projeto WinForms.csproj.SuggestedBindingRedirects.cache
+Y:\repositorios\3_noite\Primeiro Projeto WinForms\Primeiro Projeto WinForms\obj\Debug\Primeiro_Projeto_WinForms.FrmPrincipal.resources
+Y:\repositorios\3_noite\Primeiro Projeto WinForms\Primeiro Projeto WinForms\obj\Debug\Primeiro_Projeto_WinForms.Properties.Resources.resources
+Y:\repositorios\3_noite\Primeiro Projeto WinForms\Primeiro Projeto WinForms\obj\Debug\Primeiro Projeto WinForms.csproj.GenerateResource.cache
+Y:\repositorios\3_noite\Primeiro Projeto WinForms\Primeiro Projeto WinForms\obj\Debug\Primeiro Projeto WinForms.csproj.CoreCompileInputs.cache
+Y:\repositorios\3_noite\Primeiro Projeto WinForms\Primeiro Projeto WinForms\obj\Debug\Primeiro Projeto WinForms.exe
+Y:\repositorios\3_noite\Primeiro Projeto WinForms\Primeiro Projeto WinForms\obj\Debug\Primeiro Projeto WinForms.pdb
