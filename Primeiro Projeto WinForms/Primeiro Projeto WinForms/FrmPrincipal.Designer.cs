@@ -31,6 +31,8 @@
             this.lbNome = new System.Windows.Forms.Label();
             this.txtNome = new System.Windows.Forms.TextBox();
             this.btConfirma = new System.Windows.Forms.Button();
+            this.lbResultado = new System.Windows.Forms.Label();
+            this.btLimpar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lbNome
@@ -42,6 +44,7 @@
             this.lbNome.Size = new System.Drawing.Size(283, 37);
             this.lbNome.TabIndex = 0;
             this.lbNome.Text = "Informe seu nome:";
+            this.lbNome.Click += new System.EventHandler(this.lbNome_Click);
             // 
             // txtNome
             // 
@@ -60,12 +63,35 @@
             this.btConfirma.TabIndex = 2;
             this.btConfirma.Text = "Confirma";
             this.btConfirma.UseVisualStyleBackColor = true;
+            this.btConfirma.Click += new System.EventHandler(this.btConfirma_Click);
+            // 
+            // lbResultado
+            // 
+            this.lbResultado.AutoSize = true;
+            this.lbResultado.Location = new System.Drawing.Point(14, 272);
+            this.lbResultado.Name = "lbResultado";
+            this.lbResultado.Size = new System.Drawing.Size(68, 25);
+            this.lbResultado.TabIndex = 3;
+            this.lbResultado.Text = "*******";
+            // 
+            // btLimpar
+            // 
+            this.btLimpar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.btLimpar.Location = new System.Drawing.Point(19, 368);
+            this.btLimpar.Name = "btLimpar";
+            this.btLimpar.Size = new System.Drawing.Size(588, 48);
+            this.btLimpar.TabIndex = 4;
+            this.btLimpar.Text = "Limpar";
+            this.btLimpar.UseVisualStyleBackColor = false;
+            this.btLimpar.Click += new System.EventHandler(this.btLimpar_Click);
             // 
             // FrmPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(708, 352);
+            this.ClientSize = new System.Drawing.Size(640, 428);
+            this.Controls.Add(this.btLimpar);
+            this.Controls.Add(this.lbResultado);
             this.Controls.Add(this.btConfirma);
             this.Controls.Add(this.txtNome);
             this.Controls.Add(this.lbNome);
@@ -81,6 +107,8 @@
         private System.Windows.Forms.Label lbNome;
         private System.Windows.Forms.TextBox txtNome;
         private System.Windows.Forms.Button btConfirma;
+        private System.Windows.Forms.Label lbResultado;
+        private System.Windows.Forms.Button btLimpar;
     }
 }
 
