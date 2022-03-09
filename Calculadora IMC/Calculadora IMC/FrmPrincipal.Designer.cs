@@ -94,6 +94,7 @@
             this.btCalcular.TabIndex = 6;
             this.btCalcular.Text = "Calcular IMC";
             this.btCalcular.UseVisualStyleBackColor = false;
+            this.btCalcular.Click += new System.EventHandler(this.btCalcular_Click);
             // 
             // lbAltura
             // 

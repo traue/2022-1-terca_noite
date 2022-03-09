@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Calculadora_IMC
+﻿namespace Calculadora_IMC
 {
     public class Imc
     {
@@ -23,7 +17,7 @@ namespace Calculadora_IMC
             set => altura = value;
         }
 
-        public float calculaIMC()
+        public float calcularIMC()
         {
             float imc = peso / (altura * altura);
             return imc;
