@@ -36,6 +36,7 @@
             this.txtAltura = new System.Windows.Forms.TextBox();
             this.btCalcular = new System.Windows.Forms.Button();
             this.lbAltura = new System.Windows.Forms.Label();
+            this.btLimpar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lbPeso
@@ -62,7 +63,7 @@
             // 
             this.lbClassificacaoIMC.AutoSize = true;
             this.lbClassificacaoIMC.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbClassificacaoIMC.Location = new System.Drawing.Point(12, 394);
+            this.lbClassificacaoIMC.Location = new System.Drawing.Point(12, 368);
             this.lbClassificacaoIMC.Name = "lbClassificacaoIMC";
             this.lbClassificacaoIMC.Size = new System.Drawing.Size(61, 29);
             this.lbClassificacaoIMC.TabIndex = 3;
@@ -106,11 +107,23 @@
             this.lbAltura.TabIndex = 7;
             this.lbAltura.Text = "Informe sua altura:";
             // 
+            // btLimpar
+            // 
+            this.btLimpar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.btLimpar.Location = new System.Drawing.Point(17, 428);
+            this.btLimpar.Name = "btLimpar";
+            this.btLimpar.Size = new System.Drawing.Size(354, 38);
+            this.btLimpar.TabIndex = 8;
+            this.btLimpar.Text = "Limpar";
+            this.btLimpar.UseVisualStyleBackColor = false;
+            this.btLimpar.Click += new System.EventHandler(this.btLimpar_Click);
+            // 
             // FrmPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(438, 530);
+            this.Controls.Add(this.btLimpar);
             this.Controls.Add(this.lbAltura);
             this.Controls.Add(this.btCalcular);
             this.Controls.Add(this.txtAltura);
@@ -137,6 +150,7 @@
         private System.Windows.Forms.TextBox txtAltura;
         private System.Windows.Forms.Button btCalcular;
         private System.Windows.Forms.Label lbAltura;
+        private System.Windows.Forms.Button btLimpar;
     }
 }
 

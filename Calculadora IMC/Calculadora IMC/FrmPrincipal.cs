@@ -12,17 +12,30 @@ namespace Calculadora_IMC
 {
     public partial class FrmPrincipal : Form
     {
+        Imc imc;
+
         public FrmPrincipal()
         {
             InitializeComponent();
+            imc = new Imc();
         }
 
         private void btCalcular_Click(object sender, EventArgs e)
         {
-            Imc imc = new Imc();
             imc.Altura = float.Parse(txtAltura.Text);
             imc.Peso = float.Parse(txtPeso.Text);
-            lbResultadoIMC.Text = imc.calcularIMC().ToString();
+            float resultado = imc.calcularIMC();
+            lbResultadoIMC.Text = resultado.ToString();
+            lbClassificacaoIMC.Text = imc.classificaIMC(resultado);
+        }
+
+        private void btLimpar_Click(object sender, EventArgs e)
+        {
+            lbClassificacaoIMC.Text = "------";
+            lbResultadoIMC.Text = "------";
+            txtAltura.Clear();
+            txtPeso.Clear();
+            txtPeso.Focus();
         }
     }
 }
