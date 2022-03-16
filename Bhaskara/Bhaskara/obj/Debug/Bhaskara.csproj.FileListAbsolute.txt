@@ -1,0 +1,11 @@
+Y:\repositorios\3_noite\Bhaskara\Bhaskara\bin\Debug\Bhaskara.exe.config
+Y:\repositorios\3_noite\Bhaskara\Bhaskara\bin\Debug\Bhaskara.exe
+Y:\repositorios\3_noite\Bhaskara\Bhaskara\bin\Debug\Bhaskara.pdb
+Y:\repositorios\3_noite\Bhaskara\Bhaskara\obj\Debug\Bhaskara.csproj.AssemblyReference.cache
+Y:\repositorios\3_noite\Bhaskara\Bhaskara\obj\Debug\Bhaskara.csproj.SuggestedBindingRedirects.cache
+Y:\repositorios\3_noite\Bhaskara\Bhaskara\obj\Debug\Bhaskara.Properties.Resources.resources
+Y:\repositorios\3_noite\Bhaskara\Bhaskara\obj\Debug\Bhaskara.csproj.GenerateResource.cache
+Y:\repositorios\3_noite\Bhaskara\Bhaskara\obj\Debug\Bhaskara.csproj.CoreCompileInputs.cache
+Y:\repositorios\3_noite\Bhaskara\Bhaskara\obj\Debug\Bhaskara.exe
+Y:\repositorios\3_noite\Bhaskara\Bhaskara\obj\Debug\Bhaskara.pdb
+Y:\repositorios\3_noite\Bhaskara\Bhaskara\obj\Debug\Bhaskara.FrmPrincipal.resources
