@@ -17,9 +17,35 @@ namespace Bhaskara
             InitializeComponent();
         }
 
-        private void FrmPrincipal_Load(object sender, EventArgs e)
+        private void lbRN_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void btLimpar_Click(object sender, EventArgs e)
+        {
+            lbDelta.Text = "";
+            lbRP.Text = "";
+            lbRN.Text = "";
+            txtA.Clear();
+            txtB.Clear();
+            txtC.Clear();
+            txtA.Focus();
+        }
+
+        private void txtA_Click(object sender, EventArgs e)
+        {
+            txtA.Select(0, 0);
+        }
+
+        private void txtB_Click(object sender, EventArgs e)
+        {
+            txtB.Select(0, 0);
+        }
+
+        private void txtC_Click(object sender, EventArgs e)
+        {
+            txtC.Select(0, 0);
         }
     }
 }
