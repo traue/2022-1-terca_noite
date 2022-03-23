@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Bhaskara.cs" />
     <Compile Include="FrmPrincipal.cs">
       <SubType>Form</SubType>
     </Compile>
