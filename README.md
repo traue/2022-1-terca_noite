@@ -4,7 +4,7 @@ Prof. Thiago G. Traue
 
 thiago.traue@uni9.pro.br
 
-Classroom da turma: [NESTE LINK](https://classroom.google.com/c/NDY1OTg2Mzc0NzY3?cjc=ve2ofeh)
+CLASSROOM DA TURMA: [NESTE LINK](https://classroom.google.com/c/NDY1OTg2Mzc0NzY3?cjc=ve2ofeh)
 
 ---
 
@@ -14,13 +14,13 @@ Por conta da ementa da disciplina de programação visual com Winforms e C#, A I
 
 Para preparar o ambiente de desenvolvimento, você pode seguir o documento [NESTE LINK](https://docs.google.com/document/d/1peEF-FDxh14hyjkIOXfChf0-JEOJA7nW4abMthWr70I/edit?usp=sharing)
 
-
-
 ## Atividades
 
 As atividades dessa disciplina serão ministradas via classroom.
 
+Relação de atividades:
 
+- Atividade 1 - De 29.03 até 26.04, 19h - Liberada
 
 ## Critérios de Avaliação
 
