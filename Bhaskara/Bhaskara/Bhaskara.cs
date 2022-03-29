@@ -1,4 +1,6 @@
-﻿namespace Bhaskara
+﻿using System;
+
+namespace Bhaskara
 {
     public class Bhaskara
     {
@@ -28,7 +30,16 @@
             return delta;
         }
 
-        //paramos aqui... 
-        //preparar uma aula de lógica :D
+        public double calculaRaizPositiva(double delta)
+        {
+            double rp = (-b + Math.Sqrt(delta)) / (2 * a);
+            return rp;
+        }
+
+        public double calculaRaizNegativa(double delta)
+        {
+            double rn = (-b - Math.Sqrt(delta)) / (2 * a);
+            return rn;
+        }
     }
 }

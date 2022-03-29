@@ -123,6 +123,7 @@
             this.btCalcular.TabIndex = 7;
             this.btCalcular.Text = "Calcular";
             this.btCalcular.UseVisualStyleBackColor = false;
+            this.btCalcular.Click += new System.EventHandler(this.btCalcular_Click);
             // 
             // btLimpar
             // 

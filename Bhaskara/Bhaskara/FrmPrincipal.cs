@@ -47,5 +47,10 @@ namespace Bhaskara
         {
             txtC.Select(0, 0);
         }
+
+        private void btCalcular_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
