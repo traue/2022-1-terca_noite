@@ -149,11 +149,10 @@
             // 
             // lbRP
             // 
-            this.lbRP.AutoSize = true;
             this.lbRP.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbRP.Location = new System.Drawing.Point(12, 377);
+            this.lbRP.Location = new System.Drawing.Point(12, 401);
             this.lbRP.Name = "lbRP";
-            this.lbRP.Size = new System.Drawing.Size(254, 37);
+            this.lbRP.Size = new System.Drawing.Size(541, 90);
             this.lbRP.TabIndex = 10;
             this.lbRP.Text = "RAIZ_POSITIVA";
             this.lbRP.Visible = false;
@@ -162,7 +161,7 @@
             // 
             this.lbRN.AutoSize = true;
             this.lbRN.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbRN.Location = new System.Drawing.Point(12, 441);
+            this.lbRN.Location = new System.Drawing.Point(12, 491);
             this.lbRN.Name = "lbRN";
             this.lbRN.Size = new System.Drawing.Size(271, 37);
             this.lbRN.TabIndex = 11;
@@ -175,7 +174,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(610, 618);
+            this.ClientSize = new System.Drawing.Size(658, 618);
             this.Controls.Add(this.lbRN);
             this.Controls.Add(this.lbRP);
             this.Controls.Add(this.lbDelta);
