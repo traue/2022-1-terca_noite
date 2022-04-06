@@ -1,0 +1,11 @@
+Y:\repositorios\3_noite\Projeto VIagem\Viagem\Viagem\bin\Debug\Viagem.exe.config
+Y:\repositorios\3_noite\Projeto VIagem\Viagem\Viagem\bin\Debug\Viagem.exe
+Y:\repositorios\3_noite\Projeto VIagem\Viagem\Viagem\bin\Debug\Viagem.pdb
+Y:\repositorios\3_noite\Projeto VIagem\Viagem\Viagem\obj\Debug\Viagem.csproj.AssemblyReference.cache
+Y:\repositorios\3_noite\Projeto VIagem\Viagem\Viagem\obj\Debug\Viagem.csproj.SuggestedBindingRedirects.cache
+Y:\repositorios\3_noite\Projeto VIagem\Viagem\Viagem\obj\Debug\Viagem.FrmPrincipal.resources
+Y:\repositorios\3_noite\Projeto VIagem\Viagem\Viagem\obj\Debug\Viagem.Properties.Resources.resources
+Y:\repositorios\3_noite\Projeto VIagem\Viagem\Viagem\obj\Debug\Viagem.csproj.GenerateResource.cache
+Y:\repositorios\3_noite\Projeto VIagem\Viagem\Viagem\obj\Debug\Viagem.csproj.CoreCompileInputs.cache
+Y:\repositorios\3_noite\Projeto VIagem\Viagem\Viagem\obj\Debug\Viagem.exe
+Y:\repositorios\3_noite\Projeto VIagem\Viagem\Viagem\obj\Debug\Viagem.pdb
