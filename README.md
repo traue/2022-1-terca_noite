@@ -16,11 +16,12 @@ Para preparar o ambiente de desenvolvimento, você pode seguir o documento [NEST
 
 ## Atividades
 
-As atividades dessa disciplina serão ministradas via classroom.
+As atividades dessa disciplina serão ministradas via **classroom**.
 
 Relação de atividades:
 
 - Atividade 1 - De 29.03 até 26.04, 19h - Liberada
+- Atividade 2 - De 12.04 até 10.05, 19h - Leberada
 
 ## Critérios de Avaliação
 
