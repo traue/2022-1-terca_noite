@@ -194,6 +194,7 @@
             this.btCalcular.TabIndex = 18;
             this.btCalcular.Text = "Calcular gasto com essa viagem";
             this.btCalcular.UseVisualStyleBackColor = false;
+            this.btCalcular.Click += new System.EventHandler(this.btCalcular_Click);
             // 
             // FrmPrincipal
             // 

@@ -23,5 +23,33 @@ namespace Viagem
             if (ckGastoPedagio.Checked)
                 txtPedagio.Focus();
         }
+
+        private void btCalcular_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                float consumo, distancia, combustivel, pedagios;
+
+                consumo = float.Parse(txtConsumo.Text);
+                distancia = float.Parse(txtDistancia.Text);
+                combustivel = float.Parse(txtCombustivel.Text);
+
+                //if(ckGastoPedagio.Checked)
+                //{
+                //    pedagios = float.Parse(txtPedagio.Text);
+                // }
+
+                //if ternário
+                // <uma condução booleana> ? resultado se verdadeiro : resultado se falso;
+                pedagios = ckGastoPedagio.Checked ? float.Parse(txtPedagio.Text) : 0;
+
+                FrmRelatorio frmRelatorio = new FrmRelatorio(consumo, distancia, combustivel, pedagios);
+                frmRelatorio.Show();
+            } 
+            catch(Exception ex)
+            {
+                MessageBox.Show("Ops.. algo errado com os valores...");
+            }
+        }
     }
 }

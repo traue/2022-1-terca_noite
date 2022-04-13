@@ -9,3 +9,4 @@ Y:\repositorios\3_noite\Projeto VIagem\Viagem\Viagem\obj\Debug\Viagem.csproj.Gen
 Y:\repositorios\3_noite\Projeto VIagem\Viagem\Viagem\obj\Debug\Viagem.csproj.CoreCompileInputs.cache
 Y:\repositorios\3_noite\Projeto VIagem\Viagem\Viagem\obj\Debug\Viagem.exe
 Y:\repositorios\3_noite\Projeto VIagem\Viagem\Viagem\obj\Debug\Viagem.pdb
+Y:\repositorios\3_noite\Projeto VIagem\Viagem\Viagem\obj\Debug\Viagem.FrmRelatorio.resources

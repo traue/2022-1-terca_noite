@@ -28,12 +28,36 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmRelatorio));
+            this.rtRelatorio = new System.Windows.Forms.RichTextBox();
+            this.SuspendLayout();
+            // 
+            // rtRelatorio
+            // 
+            this.rtRelatorio.Location = new System.Drawing.Point(12, 12);
+            this.rtRelatorio.Name = "rtRelatorio";
+            this.rtRelatorio.Size = new System.Drawing.Size(1004, 538);
+            this.rtRelatorio.TabIndex = 0;
+            this.rtRelatorio.Text = "";
+            // 
+            // FrmRelatorio
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "FrmRelatorio";
+            this.ClientSize = new System.Drawing.Size(1028, 700);
+            this.Controls.Add(this.rtRelatorio);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
+            this.Name = "FrmRelatorio";
+            this.Text = "Relatório de Gastos";
+            this.Load += new System.EventHandler(this.FrmRelatorio_Load);
+            this.ResumeLayout(false);
+
         }
 
         #endregion
+
+        private System.Windows.Forms.RichTextBox rtRelatorio;
     }
 }
