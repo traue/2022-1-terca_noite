@@ -26,6 +26,46 @@ namespace Viagem
         private void FrmRelatorio_Load(object sender, EventArgs e)
         {
             //faremos na aula que vem... :(
+            String aux = "";
+
+            //coloca a distância informada no relatório:
+            aux = "Distância informada: " + distancia + "Km";
+            adicionaTexto(aux);
+
+            //coloca o consumo médio do veículo no relaólrio:
+            aux = "Consumo médio informado: " + consumo + "Km/L";
+            adicionaTexto(aux);
+
+            //coloca o valor do combustível no relatório:
+            aux = "Valor do combustível: R$" + combustivel;
+            adicionaTexto(aux);
+
+            //adiciona a informação do pedágio:
+            aux = "Houve gasto com pedágio: " + (pedagios == 0 ? "Não" : "Sim");
+            adicionaTexto(aux);
+
+            //se houve gasto com pedágios, mostra...
+            if(pedagios != 0)
+            {
+                aux = "Valor gasto com pedágios: R$" + pedagios;
+                adicionaTexto(aux);
+            }
+
+            //mostra a quantidade de litros utilizada:
+            float qtdLitros = calcula_qtd_litros(distancia, consumo);
+            aux = "Quantidade de litros de combustível: " + qtdLitros + "L";
+            adicionaTexto(aux);
+
+            //mostra o gasto com combustível:
+            float gasto_combustivel = calcula_gasto_combustivel(qtdLitros, combustivel);
+            aux = "Valor total gasto com combustível: R$" + gasto_combustivel;
+            adicionaTexto(aux);
+
+            rtRelatorio.AppendText(Environment.NewLine + "-----------" + Environment.NewLine);
+
+            //adiciona o valor total da viagem:
+            aux = "Valor total da viagem: R$" + (gasto_combustivel + pedagios);
+            adicionaTexto(aux);
         }
 
         private float calcula_qtd_litros(float distancia, float consumo)

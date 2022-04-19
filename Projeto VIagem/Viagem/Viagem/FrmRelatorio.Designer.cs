@@ -34,6 +34,7 @@
             // 
             // rtRelatorio
             // 
+            this.rtRelatorio.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rtRelatorio.Location = new System.Drawing.Point(12, 12);
             this.rtRelatorio.Name = "rtRelatorio";
             this.rtRelatorio.Size = new System.Drawing.Size(1004, 538);
