@@ -1,12 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.IO;
 
 namespace Viagem
 {
@@ -66,6 +62,36 @@ namespace Viagem
             //adiciona o valor total da viagem:
             aux = "Valor total da viagem: R$" + (gasto_combustivel + pedagios);
             adicionaTexto(aux);
+        }
+
+        private void btFechar_Click(object sender, EventArgs e)
+        {
+            Dispose();
+        }
+
+        private void btExportarTXT_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                SaveFileDialog save = new SaveFileDialog();
+                save.FileName = "Relatorio_Viagem.txt";
+                save.Filter = "Arquivo de Text | *.txt";
+
+                if(save.ShowDialog() == DialogResult.OK)
+                {
+                    StreamWriter sw = new StreamWriter(save.OpenFile());
+                    for(int i = 0; i < rtRelatorio.Lines.Length; i++)
+                    {
+                        sw.WriteLine(rtRelatorio.Lines[i]);
+                    }
+                    sw.Close();
+                    sw.Dispose();
+                }
+            }
+            catch
+            {
+                MessageBox.Show("Houve algum erro ao salvar..");
+            }
         }
 
         private float calcula_qtd_litros(float distancia, float consumo)
