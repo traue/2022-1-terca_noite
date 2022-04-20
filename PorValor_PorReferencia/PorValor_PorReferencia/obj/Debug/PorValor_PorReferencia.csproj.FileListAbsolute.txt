@@ -1,0 +1,11 @@
+Y:\repositorios\3_noite\PorValor_PorReferencia\PorValor_PorReferencia\bin\Debug\PorValor_PorReferencia.exe.config
+Y:\repositorios\3_noite\PorValor_PorReferencia\PorValor_PorReferencia\bin\Debug\PorValor_PorReferencia.exe
+Y:\repositorios\3_noite\PorValor_PorReferencia\PorValor_PorReferencia\bin\Debug\PorValor_PorReferencia.pdb
+Y:\repositorios\3_noite\PorValor_PorReferencia\PorValor_PorReferencia\obj\Debug\PorValor_PorReferencia.csproj.AssemblyReference.cache
+Y:\repositorios\3_noite\PorValor_PorReferencia\PorValor_PorReferencia\obj\Debug\PorValor_PorReferencia.csproj.SuggestedBindingRedirects.cache
+Y:\repositorios\3_noite\PorValor_PorReferencia\PorValor_PorReferencia\obj\Debug\PorValor_PorReferencia.Form1.resources
+Y:\repositorios\3_noite\PorValor_PorReferencia\PorValor_PorReferencia\obj\Debug\PorValor_PorReferencia.Properties.Resources.resources
+Y:\repositorios\3_noite\PorValor_PorReferencia\PorValor_PorReferencia\obj\Debug\PorValor_PorReferencia.csproj.GenerateResource.cache
+Y:\repositorios\3_noite\PorValor_PorReferencia\PorValor_PorReferencia\obj\Debug\PorValor_PorReferencia.csproj.CoreCompileInputs.cache
+Y:\repositorios\3_noite\PorValor_PorReferencia\PorValor_PorReferencia\obj\Debug\PorValor_PorReferencia.exe
+Y:\repositorios\3_noite\PorValor_PorReferencia\PorValor_PorReferencia\obj\Debug\PorValor_PorReferencia.pdb
