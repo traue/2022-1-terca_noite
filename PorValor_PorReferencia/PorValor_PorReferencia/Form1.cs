@@ -24,6 +24,14 @@ namespace PorValor_PorReferencia
         {
             varA = varA * 3;
             varB = varB * 5;
+            MessageBox.Show("a = " + varA + " e b = " + varB);
+        }
+
+        void porReferencia(ref double x, ref double y)
+        {
+            x = x * 3;
+            y = y * 5;
+            MessageBox.Show("a = " + x + " e b = " + y);
         }
 
         private void btValor_Click(object sender, EventArgs e)
@@ -45,7 +53,19 @@ namespace PorValor_PorReferencia
 
         private void btnRef_Click(object sender, EventArgs e)
         {
-            //paramos aqui.. continuamos na próxima aula...
+            //declaraçao local das variáveis originais:
+            double varA, varB;
+
+            //captação dos dados dos campos...:
+            varA = Convert.ToDouble(txtVarA.Text);
+            varB = Convert.ToDouble(txtVarB.Text);
+
+            //chamada do método passando a referência das variáveis em memória (endereço)
+            porReferencia(ref varA, ref varB);
+
+            //mostra os valores das variáveis nos txtRes...:
+            txtResA.Text = varA.ToString();
+            txtResB.Text = varB.ToString();
         }
     }
 }
