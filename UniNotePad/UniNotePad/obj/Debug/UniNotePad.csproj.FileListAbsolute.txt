@@ -1,0 +1,11 @@
+Y:\repositorios\3_noite\UniNotePad\UniNotePad\bin\Debug\UniNotePad.exe.config
+Y:\repositorios\3_noite\UniNotePad\UniNotePad\bin\Debug\UniNotePad.exe
+Y:\repositorios\3_noite\UniNotePad\UniNotePad\bin\Debug\UniNotePad.pdb
+Y:\repositorios\3_noite\UniNotePad\UniNotePad\obj\Debug\UniNotePad.csproj.AssemblyReference.cache
+Y:\repositorios\3_noite\UniNotePad\UniNotePad\obj\Debug\UniNotePad.csproj.SuggestedBindingRedirects.cache
+Y:\repositorios\3_noite\UniNotePad\UniNotePad\obj\Debug\UniNotePad.FrmPrincipal.resources
+Y:\repositorios\3_noite\UniNotePad\UniNotePad\obj\Debug\UniNotePad.Properties.Resources.resources
+Y:\repositorios\3_noite\UniNotePad\UniNotePad\obj\Debug\UniNotePad.csproj.GenerateResource.cache
+Y:\repositorios\3_noite\UniNotePad\UniNotePad\obj\Debug\UniNotePad.csproj.CoreCompileInputs.cache
+Y:\repositorios\3_noite\UniNotePad\UniNotePad\obj\Debug\UniNotePad.exe
+Y:\repositorios\3_noite\UniNotePad\UniNotePad\obj\Debug\UniNotePad.pdb
