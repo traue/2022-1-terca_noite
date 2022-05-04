@@ -9,3 +9,4 @@ Y:\repositorios\3_noite\UniNotePad\UniNotePad\obj\Debug\UniNotePad.csproj.Genera
 Y:\repositorios\3_noite\UniNotePad\UniNotePad\obj\Debug\UniNotePad.csproj.CoreCompileInputs.cache
 Y:\repositorios\3_noite\UniNotePad\UniNotePad\obj\Debug\UniNotePad.exe
 Y:\repositorios\3_noite\UniNotePad\UniNotePad\obj\Debug\UniNotePad.pdb
+Y:\repositorios\3_noite\UniNotePad\UniNotePad\obj\Debug\UniNotePad.FrmFilha.resources

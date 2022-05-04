@@ -31,16 +31,16 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmPrincipal));
             this.menuStrip = new System.Windows.Forms.MenuStrip();
             this.arquivoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.novaJanelaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
+            this.abrirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.salvarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
             this.sairToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.editarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.janelasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.novaJanelaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.abrirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.salvarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.copiarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.colarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.janelasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -55,7 +55,7 @@
             this.menuStrip.Location = new System.Drawing.Point(0, 0);
             this.menuStrip.MdiWindowListItem = this.janelasToolStripMenuItem;
             this.menuStrip.Name = "menuStrip";
-            this.menuStrip.Size = new System.Drawing.Size(1572, 40);
+            this.menuStrip.Size = new System.Drawing.Size(1572, 42);
             this.menuStrip.TabIndex = 1;
             this.menuStrip.Text = "menuStrip1";
             // 
@@ -69,13 +69,40 @@
             this.toolStripSeparator2,
             this.sairToolStripMenuItem});
             this.arquivoToolStripMenuItem.Name = "arquivoToolStripMenuItem";
-            this.arquivoToolStripMenuItem.Size = new System.Drawing.Size(117, 36);
+            this.arquivoToolStripMenuItem.Size = new System.Drawing.Size(117, 38);
             this.arquivoToolStripMenuItem.Text = "Arquivo";
+            // 
+            // novaJanelaToolStripMenuItem
+            // 
+            this.novaJanelaToolStripMenuItem.Image = global::UniNotePad.Properties.Resources.file;
+            this.novaJanelaToolStripMenuItem.Name = "novaJanelaToolStripMenuItem";
+            this.novaJanelaToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.N)));
+            this.novaJanelaToolStripMenuItem.Size = new System.Drawing.Size(420, 44);
+            this.novaJanelaToolStripMenuItem.Text = "Novo documento";
+            this.novaJanelaToolStripMenuItem.Click += new System.EventHandler(this.novaJanelaToolStripMenuItem_Click);
             // 
             // toolStripSeparator1
             // 
             this.toolStripSeparator1.Name = "toolStripSeparator1";
             this.toolStripSeparator1.Size = new System.Drawing.Size(417, 6);
+            // 
+            // abrirToolStripMenuItem
+            // 
+            this.abrirToolStripMenuItem.Image = global::UniNotePad.Properties.Resources.folder;
+            this.abrirToolStripMenuItem.Name = "abrirToolStripMenuItem";
+            this.abrirToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.O)));
+            this.abrirToolStripMenuItem.Size = new System.Drawing.Size(420, 44);
+            this.abrirToolStripMenuItem.Text = "Abrir";
+            this.abrirToolStripMenuItem.Click += new System.EventHandler(this.abrirToolStripMenuItem_Click);
+            // 
+            // salvarToolStripMenuItem
+            // 
+            this.salvarToolStripMenuItem.Image = global::UniNotePad.Properties.Resources.diskette;
+            this.salvarToolStripMenuItem.Name = "salvarToolStripMenuItem";
+            this.salvarToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.S)));
+            this.salvarToolStripMenuItem.Size = new System.Drawing.Size(420, 44);
+            this.salvarToolStripMenuItem.Text = "Salvar";
+            this.salvarToolStripMenuItem.Click += new System.EventHandler(this.salvarToolStripMenuItem_Click);
             // 
             // toolStripSeparator2
             // 
@@ -96,46 +123,15 @@
             this.copiarToolStripMenuItem,
             this.colarToolStripMenuItem});
             this.editarToolStripMenuItem.Name = "editarToolStripMenuItem";
-            this.editarToolStripMenuItem.Size = new System.Drawing.Size(94, 36);
+            this.editarToolStripMenuItem.Size = new System.Drawing.Size(94, 38);
             this.editarToolStripMenuItem.Text = "Editar";
-            // 
-            // janelasToolStripMenuItem
-            // 
-            this.janelasToolStripMenuItem.Name = "janelasToolStripMenuItem";
-            this.janelasToolStripMenuItem.Size = new System.Drawing.Size(110, 36);
-            this.janelasToolStripMenuItem.Text = "Janelas";
-            // 
-            // novaJanelaToolStripMenuItem
-            // 
-            this.novaJanelaToolStripMenuItem.Image = global::UniNotePad.Properties.Resources.file;
-            this.novaJanelaToolStripMenuItem.Name = "novaJanelaToolStripMenuItem";
-            this.novaJanelaToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.N)));
-            this.novaJanelaToolStripMenuItem.Size = new System.Drawing.Size(420, 44);
-            this.novaJanelaToolStripMenuItem.Text = "Novo documento";
-            // 
-            // abrirToolStripMenuItem
-            // 
-            this.abrirToolStripMenuItem.Image = global::UniNotePad.Properties.Resources.folder;
-            this.abrirToolStripMenuItem.Name = "abrirToolStripMenuItem";
-            this.abrirToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.O)));
-            this.abrirToolStripMenuItem.Size = new System.Drawing.Size(420, 44);
-            this.abrirToolStripMenuItem.Text = "Abrir";
-            // 
-            // salvarToolStripMenuItem
-            // 
-            this.salvarToolStripMenuItem.Image = global::UniNotePad.Properties.Resources.diskette;
-            this.salvarToolStripMenuItem.Name = "salvarToolStripMenuItem";
-            this.salvarToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.S)));
-            this.salvarToolStripMenuItem.Size = new System.Drawing.Size(420, 44);
-            this.salvarToolStripMenuItem.Text = "Salvar";
-            this.salvarToolStripMenuItem.Click += new System.EventHandler(this.salvarToolStripMenuItem_Click);
             // 
             // copiarToolStripMenuItem
             // 
             this.copiarToolStripMenuItem.Image = global::UniNotePad.Properties.Resources.copy;
             this.copiarToolStripMenuItem.Name = "copiarToolStripMenuItem";
             this.copiarToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.C)));
-            this.copiarToolStripMenuItem.Size = new System.Drawing.Size(359, 44);
+            this.copiarToolStripMenuItem.Size = new System.Drawing.Size(298, 44);
             this.copiarToolStripMenuItem.Text = "Copiar";
             // 
             // colarToolStripMenuItem
@@ -143,8 +139,14 @@
             this.colarToolStripMenuItem.Image = global::UniNotePad.Properties.Resources.paste;
             this.colarToolStripMenuItem.Name = "colarToolStripMenuItem";
             this.colarToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.V)));
-            this.colarToolStripMenuItem.Size = new System.Drawing.Size(359, 44);
+            this.colarToolStripMenuItem.Size = new System.Drawing.Size(298, 44);
             this.colarToolStripMenuItem.Text = "Colar";
+            // 
+            // janelasToolStripMenuItem
+            // 
+            this.janelasToolStripMenuItem.Name = "janelasToolStripMenuItem";
+            this.janelasToolStripMenuItem.Size = new System.Drawing.Size(110, 38);
+            this.janelasToolStripMenuItem.Text = "Janelas";
             // 
             // FrmPrincipal
             // 
@@ -157,6 +159,7 @@
             this.MainMenuStrip = this.menuStrip;
             this.Name = "FrmPrincipal";
             this.Text = "UniNotePad";
+            this.Load += new System.EventHandler(this.FrmPrincipal_Load);
             this.menuStrip.ResumeLayout(false);
             this.menuStrip.PerformLayout();
             this.ResumeLayout(false);
