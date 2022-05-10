@@ -21,7 +21,7 @@ As atividades dessa disciplina serão ministradas via **classroom**.
 Relação de atividades:
 
 - **Atividade 1** - De 29.03 até 03.05, 19h - Encerrada
-- **Atividade 2** - De 12.04 até 10.05, 19h - Liberada
+- **Atividade 2** - De 12.04 até 10.05, 19h - Encerrada
 - **Atividade 3** - De 19.04 até 17.05, 19h - Liberada
 - **Atividade 4** - De 03.05 até 31.05, 19h - Liberada
 
