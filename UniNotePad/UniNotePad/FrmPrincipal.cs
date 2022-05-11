@@ -17,11 +17,11 @@ namespace UniNotePad
         {
             DialogResult dialogResult = MessageBox.Show(
                 "Deseja realmente sair?",
-                "Sair", 
+                "Sair",
                 MessageBoxButtons.YesNo,
                 MessageBoxIcon.Question);
 
-            if(dialogResult == DialogResult.Yes)
+            if (dialogResult == DialogResult.Yes)
             {
                 Application.Exit();
             }
@@ -40,11 +40,11 @@ namespace UniNotePad
                     saveFileDialog.FileName = "Meu Arquivo.txt";
                     saveFileDialog.RestoreDirectory = true;
 
-                    if(saveFileDialog.ShowDialog() == DialogResult.OK)
+                    if (saveFileDialog.ShowDialog() == DialogResult.OK)
                     {
                         StreamWriter writer = new StreamWriter(saveFileDialog.OpenFile());
                         filhaAtiva.Text = saveFileDialog.FileName;
-                        for(int i = 0; i < rtTexto.Lines.Length; i++)
+                        for (int i = 0; i < rtTexto.Lines.Length; i++)
                         {
                             writer.WriteLine(rtTexto.Lines[i]);
                         }
@@ -78,7 +78,7 @@ namespace UniNotePad
         private void abrirToolStripMenuItem_Click(object sender, EventArgs e)
         {
             FrmFilha f;
-            if(this.ActiveMdiChild == null)
+            if (this.ActiveMdiChild == null)
             {
                 f = new FrmFilha();
                 f.MdiParent = this;
@@ -94,7 +94,7 @@ namespace UniNotePad
             OpenFileDialog openFileDialog = new OpenFileDialog();
 
             openFileDialog.Filter = "Arquivo de Texto |*.txt";
-            if(openFileDialog.ShowDialog() == DialogResult.OK)
+            if (openFileDialog.ShowDialog() == DialogResult.OK)
             {
                 StreamReader reader =
                     new StreamReader(openFileDialog.OpenFile());
@@ -108,6 +108,74 @@ namespace UniNotePad
                 f.Show();
             }
         }
+
+        private void copiarToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            copiar_recortar(false);
+        }
+
+        private void colarToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmFilha filhaAtiva = (FrmFilha)this.ActiveMdiChild;
+
+            if(filhaAtiva != null)
+            {
+                try
+                {
+                    RichTextBox textBox = filhaAtiva.rtTexto;
+                    if(textBox != null)
+                    {
+                        IDataObject data = Clipboard.GetDataObject();
+                        if (data.GetDataPresent(DataFormats.StringFormat))
+                        {
+                            textBox.SelectedText = data.GetData(DataFormats.StringFormat).ToString();
+                        }
+                        else
+                        {
+                            MessageBox.Show("Só consigo colar textos!", "Colar");
+                        }
+                    }
+                } 
+                catch
+                {
+                    MessageBox.Show("Erro ao colar...", "Colar");
+                }
+            }
+        }
+
+        private void recortarToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            copiar_recortar(true);
+        }
+
+        private void copiar_recortar(bool recortando)
+        {
+            FrmFilha filhaAtiva = (FrmFilha)this.ActiveMdiChild;
+
+            if (filhaAtiva != null)
+            {
+                try
+                {
+                    RichTextBox txtBox = filhaAtiva.rtTexto;
+                    if (txtBox != null)
+                    {
+                        if (txtBox.SelectedText != null)
+                        {
+                            Clipboard.SetText(txtBox.SelectedText, TextDataFormat.UnicodeText);
+                            if (recortando)
+                            {
+                                txtBox.SelectedText = String.Empty;
+                            }
+                        }
+                    }
+                }
+                catch
+                {
+                    MessageBox.Show("Não posso copiar nada....", "Copiar");
+                }
+            }
+
+        }
     }
 
     //DESAFIO DO TIO!!!
@@ -118,7 +186,6 @@ namespace UniNotePad
      * Os métodos de 
      *  - salvar como, 
      *  - salvar (corrigir o nosso),
-     *  - recortar (o texto selecionado)
      *  - Alterar fonte da richTextBox (apenas em runtime, não é preciso salvar em rtf)
      *  - Arrumar todos os ícones
      *  - Implementar quebra automática de linha (word wrap)
