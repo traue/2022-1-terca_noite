@@ -1,0 +1,11 @@
+Y:\repositorios\3_noite\Solucao_Atv_3-SomaAN\Solucao_Atv_3-SomaAN\obj\Debug\Solucao_Atv_3-SomaAN.csproj.AssemblyReference.cache
+Y:\repositorios\3_noite\Solucao_Atv_3-SomaAN\Solucao_Atv_3-SomaAN\obj\Debug\Solucao_Atv_3-SomaAN.csproj.SuggestedBindingRedirects.cache
+Y:\repositorios\3_noite\Solucao_Atv_3-SomaAN\Solucao_Atv_3-SomaAN\obj\Debug\Solucao_Atv_3_SomaAN.Form1.resources
+Y:\repositorios\3_noite\Solucao_Atv_3-SomaAN\Solucao_Atv_3-SomaAN\obj\Debug\Solucao_Atv_3_SomaAN.Properties.Resources.resources
+Y:\repositorios\3_noite\Solucao_Atv_3-SomaAN\Solucao_Atv_3-SomaAN\obj\Debug\Solucao_Atv_3-SomaAN.csproj.GenerateResource.cache
+Y:\repositorios\3_noite\Solucao_Atv_3-SomaAN\Solucao_Atv_3-SomaAN\obj\Debug\Solucao_Atv_3-SomaAN.csproj.CoreCompileInputs.cache
+Y:\repositorios\3_noite\Solucao_Atv_3-SomaAN\Solucao_Atv_3-SomaAN\bin\Debug\Solucao_Atv_3-SomaAN.exe.config
+Y:\repositorios\3_noite\Solucao_Atv_3-SomaAN\Solucao_Atv_3-SomaAN\bin\Debug\Solucao_Atv_3-SomaAN.exe
+Y:\repositorios\3_noite\Solucao_Atv_3-SomaAN\Solucao_Atv_3-SomaAN\bin\Debug\Solucao_Atv_3-SomaAN.pdb
+Y:\repositorios\3_noite\Solucao_Atv_3-SomaAN\Solucao_Atv_3-SomaAN\obj\Debug\Solucao_Atv_3-SomaAN.exe
+Y:\repositorios\3_noite\Solucao_Atv_3-SomaAN\Solucao_Atv_3-SomaAN\obj\Debug\Solucao_Atv_3-SomaAN.pdb
