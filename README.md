@@ -25,6 +25,8 @@ Relação de atividades:
 - **Atividade 3** - De 19.04 até 17.05, 19h - Encerrada
 - **Atividade 4** - De 03.05 até 31.05, 19h - Liberada
 
+**Atividade de recuperação:** 14.06 (EM AULA)
+
 ## Critérios de Avaliação
 
 Este professor não utiliza nenhuma prova para realizar a avaliação da turma, apenas atividades disponibilizadas durante o semestre.
