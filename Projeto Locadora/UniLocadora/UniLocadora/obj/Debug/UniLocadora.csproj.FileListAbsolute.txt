@@ -1,0 +1,46 @@
+Y:\repositorios\3_noite\UniLocadora\UniLocadora\bin\Debug\UniLocadora.exe.config
+Y:\repositorios\3_noite\UniLocadora\UniLocadora\bin\Debug\UniLocadora.exe
+Y:\repositorios\3_noite\UniLocadora\UniLocadora\bin\Debug\UniLocadora.pdb
+Y:\repositorios\3_noite\UniLocadora\UniLocadora\obj\Debug\UniLocadora.csproj.AssemblyReference.cache
+Y:\repositorios\3_noite\UniLocadora\UniLocadora\obj\Debug\UniLocadora.csproj.SuggestedBindingRedirects.cache
+Y:\repositorios\3_noite\UniLocadora\UniLocadora\obj\Debug\UniLocadora.FrmPrincipal.resources
+Y:\repositorios\3_noite\UniLocadora\UniLocadora\obj\Debug\UniLocadora.Properties.Resources.resources
+Y:\repositorios\3_noite\UniLocadora\UniLocadora\obj\Debug\UniLocadora.csproj.GenerateResource.cache
+Y:\repositorios\3_noite\UniLocadora\UniLocadora\obj\Debug\UniLocadora.csproj.CoreCompileInputs.cache
+Y:\repositorios\3_noite\UniLocadora\UniLocadora\obj\Debug\UniLocadora.exe
+Y:\repositorios\3_noite\UniLocadora\UniLocadora\obj\Debug\UniLocadora.pdb
+Y:\repositorios\3_noite\Projeto Locadora\UniLocadora\UniLocadora\bin\Debug\UniLocadora.exe.config
+Y:\repositorios\3_noite\Projeto Locadora\UniLocadora\UniLocadora\bin\Debug\UniLocadora.exe
+Y:\repositorios\3_noite\Projeto Locadora\UniLocadora\UniLocadora\bin\Debug\UniLocadora.pdb
+Y:\repositorios\3_noite\Projeto Locadora\UniLocadora\UniLocadora\bin\Debug\BouncyCastle.Crypto.dll
+Y:\repositorios\3_noite\Projeto Locadora\UniLocadora\UniLocadora\bin\Debug\Google.Protobuf.dll
+Y:\repositorios\3_noite\Projeto Locadora\UniLocadora\UniLocadora\bin\Debug\K4os.Compression.LZ4.dll
+Y:\repositorios\3_noite\Projeto Locadora\UniLocadora\UniLocadora\bin\Debug\K4os.Compression.LZ4.Streams.dll
+Y:\repositorios\3_noite\Projeto Locadora\UniLocadora\UniLocadora\bin\Debug\K4os.Hash.xxHash.dll
+Y:\repositorios\3_noite\Projeto Locadora\UniLocadora\UniLocadora\bin\Debug\MySql.Data.dll
+Y:\repositorios\3_noite\Projeto Locadora\UniLocadora\UniLocadora\bin\Debug\System.Buffers.dll
+Y:\repositorios\3_noite\Projeto Locadora\UniLocadora\UniLocadora\bin\Debug\System.Memory.dll
+Y:\repositorios\3_noite\Projeto Locadora\UniLocadora\UniLocadora\bin\Debug\System.Numerics.Vectors.dll
+Y:\repositorios\3_noite\Projeto Locadora\UniLocadora\UniLocadora\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+Y:\repositorios\3_noite\Projeto Locadora\UniLocadora\UniLocadora\bin\Debug\Ubiety.Dns.Core.dll
+Y:\repositorios\3_noite\Projeto Locadora\UniLocadora\UniLocadora\bin\Debug\ZstdNet.dll
+Y:\repositorios\3_noite\Projeto Locadora\UniLocadora\UniLocadora\bin\Debug\Google.Protobuf.pdb
+Y:\repositorios\3_noite\Projeto Locadora\UniLocadora\UniLocadora\bin\Debug\Google.Protobuf.xml
+Y:\repositorios\3_noite\Projeto Locadora\UniLocadora\UniLocadora\bin\Debug\K4os.Compression.LZ4.xml
+Y:\repositorios\3_noite\Projeto Locadora\UniLocadora\UniLocadora\bin\Debug\K4os.Compression.LZ4.Streams.xml
+Y:\repositorios\3_noite\Projeto Locadora\UniLocadora\UniLocadora\bin\Debug\K4os.Hash.xxHash.xml
+Y:\repositorios\3_noite\Projeto Locadora\UniLocadora\UniLocadora\bin\Debug\MySql.Data.xml
+Y:\repositorios\3_noite\Projeto Locadora\UniLocadora\UniLocadora\bin\Debug\System.Buffers.xml
+Y:\repositorios\3_noite\Projeto Locadora\UniLocadora\UniLocadora\bin\Debug\System.Memory.xml
+Y:\repositorios\3_noite\Projeto Locadora\UniLocadora\UniLocadora\bin\Debug\System.Numerics.Vectors.xml
+Y:\repositorios\3_noite\Projeto Locadora\UniLocadora\UniLocadora\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+Y:\repositorios\3_noite\Projeto Locadora\UniLocadora\UniLocadora\obj\Debug\UniLocadora.csproj.AssemblyReference.cache
+Y:\repositorios\3_noite\Projeto Locadora\UniLocadora\UniLocadora\obj\Debug\UniLocadora.csproj.SuggestedBindingRedirects.cache
+Y:\repositorios\3_noite\Projeto Locadora\UniLocadora\UniLocadora\obj\Debug\UniLocadora.FrmCadastroCliente.resources
+Y:\repositorios\3_noite\Projeto Locadora\UniLocadora\UniLocadora\obj\Debug\UniLocadora.FrmPrincipal.resources
+Y:\repositorios\3_noite\Projeto Locadora\UniLocadora\UniLocadora\obj\Debug\UniLocadora.Properties.Resources.resources
+Y:\repositorios\3_noite\Projeto Locadora\UniLocadora\UniLocadora\obj\Debug\UniLocadora.csproj.GenerateResource.cache
+Y:\repositorios\3_noite\Projeto Locadora\UniLocadora\UniLocadora\obj\Debug\UniLocadora.csproj.CoreCompileInputs.cache
+Y:\repositorios\3_noite\Projeto Locadora\UniLocadora\UniLocadora\obj\Debug\UniLocadora.csproj.CopyComplete
+Y:\repositorios\3_noite\Projeto Locadora\UniLocadora\UniLocadora\obj\Debug\UniLocadora.exe
+Y:\repositorios\3_noite\Projeto Locadora\UniLocadora\UniLocadora\obj\Debug\UniLocadora.pdb
