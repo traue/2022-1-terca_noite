@@ -44,3 +44,4 @@ Y:\repositorios\3_noite\Projeto Locadora\UniLocadora\UniLocadora\obj\Debug\UniLo
 Y:\repositorios\3_noite\Projeto Locadora\UniLocadora\UniLocadora\obj\Debug\UniLocadora.csproj.CopyComplete
 Y:\repositorios\3_noite\Projeto Locadora\UniLocadora\UniLocadora\obj\Debug\UniLocadora.exe
 Y:\repositorios\3_noite\Projeto Locadora\UniLocadora\UniLocadora\obj\Debug\UniLocadora.pdb
+Y:\repositorios\3_noite\Projeto Locadora\UniLocadora\UniLocadora\obj\Debug\UniLocadora.FrmConsultaCliente.resources
