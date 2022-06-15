@@ -1,0 +1,11 @@
+Y:\repositorios\3_noite\Projeto Rec\Projeto Rec\bin\Debug\Projeto Rec.exe.config
+Y:\repositorios\3_noite\Projeto Rec\Projeto Rec\bin\Debug\Projeto Rec.exe
+Y:\repositorios\3_noite\Projeto Rec\Projeto Rec\bin\Debug\Projeto Rec.pdb
+Y:\repositorios\3_noite\Projeto Rec\Projeto Rec\obj\Debug\Projeto Rec.csproj.AssemblyReference.cache
+Y:\repositorios\3_noite\Projeto Rec\Projeto Rec\obj\Debug\Projeto Rec.csproj.SuggestedBindingRedirects.cache
+Y:\repositorios\3_noite\Projeto Rec\Projeto Rec\obj\Debug\Projeto_Rec.Form1.resources
+Y:\repositorios\3_noite\Projeto Rec\Projeto Rec\obj\Debug\Projeto_Rec.Properties.Resources.resources
+Y:\repositorios\3_noite\Projeto Rec\Projeto Rec\obj\Debug\Projeto Rec.csproj.GenerateResource.cache
+Y:\repositorios\3_noite\Projeto Rec\Projeto Rec\obj\Debug\Projeto Rec.csproj.CoreCompileInputs.cache
+Y:\repositorios\3_noite\Projeto Rec\Projeto Rec\obj\Debug\Projeto Rec.exe
+Y:\repositorios\3_noite\Projeto Rec\Projeto Rec\obj\Debug\Projeto Rec.pdb
