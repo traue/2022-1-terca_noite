@@ -1,4 +1,4 @@
-# Programação Visual
+# Programação Visual - Encerrada
 
 Prof. Thiago G. Traue
 
@@ -8,30 +8,4 @@ CLASSROOM DA TURMA: [NESTE LINK](https://classroom.google.com/c/NDY1OTg2Mzc0NzY3
 
 ---
 
-## Preparação do ambiente de desenvolvimento
-
-Por conta da ementa da disciplina de programação visual com Winforms e C#, A IDE que utilizamos é exclusiva para Windows, ou seja, não existem versões para Mac e/ou Linux.
-
-Para preparar o ambiente de desenvolvimento, você pode seguir o documento [NESTE LINK](https://docs.google.com/document/d/1peEF-FDxh14hyjkIOXfChf0-JEOJA7nW4abMthWr70I/edit?usp=sharing)
-
-## Atividades
-
-As atividades dessa disciplina serão ministradas via **classroom**.
-
-Relação de atividades:
-
-- **Atividade 1** - De 29.03 até 03.05, 19h - Encerrada
-- **Atividade 2** - De 12.04 até 10.05, 19h - Encerrada
-- **Atividade 3** - De 19.04 até 17.05, 19h - Encerrada
-- **Atividade 4** - De 03.05 até 31.05, 19h - Encerrada
-- **Atividade 5** - De 31.05 até 14.06, 19h - Encerrada
-
-**Atividade de recuperação:** 14.06 (EM AULA)
-
-## Critérios de Avaliação
-
-Este professor não utiliza nenhuma prova para realizar a avaliação da turma, apenas atividades disponibilizadas durante o semestre.
-
-Teremos entre 4 e 6 atividades, todas de múltipla escolha e com prazo de ao menos 15 dias para realização.
-
-A média desta disciplina é calculada simplesmente pela média das atividades.
+## encerrada
